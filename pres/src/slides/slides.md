@@ -11,8 +11,14 @@
 
 --------------------------------
 
-## !
+### Conceptual Refresher:
 
+- First Class Functions
+- Effect (Side or Otherwise)
+- Pure Functions
+ - Referential Transparency
+ - No Side Effects
+- Kleisli  Arrow
 
 ==============
 
