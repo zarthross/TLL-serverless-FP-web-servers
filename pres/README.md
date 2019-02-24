@@ -1,5 +1,7 @@
 # Pure FP Web Apps in AWS Lambda using Http4s
 
+# [Slides](slides/slides.md)
+
 ## Run Presentation:
 
 1. Download Reveal.js and extract into `pres/`

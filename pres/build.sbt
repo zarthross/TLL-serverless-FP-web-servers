@@ -2,8 +2,8 @@ enablePlugins(TutPlugin)
 
 scalaVersion in ThisBuild := "2.12.8"
 
-tutSourceDirectory := baseDirectory.value / "src/slides"
-watchSources += baseDirectory.value / "src/slides"
+tutSourceDirectory := baseDirectory.value / "slides"
+watchSources += baseDirectory.value / "slides"
 tut := {
 	val r = tut.value
 	val revealFolder = baseDirectory.value / "reveal.js"
