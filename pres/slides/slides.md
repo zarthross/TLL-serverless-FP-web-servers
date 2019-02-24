@@ -5,9 +5,18 @@
 
 11:30am~12:30pm every last Tuesday
 
---------------------------------
+================================
 
 [< Insert Obligatory Event Intro Here >](https://github.com/techlahoma/Event-Intro)
+
+--------------------------------
+
+#### Pure FP Web Apps in AWS Lambda using Http4s
+
+![Cats](https://typelevel.org/cats/img/cats-logo.svg)  <!-- .element: height="150px"-->
+![FS2](https://user-images.githubusercontent.com/118078/50014823-04c38d00-ff93-11e8-9b46-088f72555c07.png) <!-- .element: height="150px"-->
+![Http4s](https://http4s.org/images/http4s-logo.svg) <!-- .element: height="150px"-->
+![Aws Lambda](/images/AWS-Lambda.png) <!-- .element: height="150px"-->
 
 --------------------------------
 
@@ -20,7 +29,7 @@
  - No Side Effects
 - Kleisli  Arrow
 
-==============
+================================
 
 ## Questions?
 
