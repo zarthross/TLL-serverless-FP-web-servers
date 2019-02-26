@@ -77,6 +77,59 @@ with a jar file of 40mb.
 
 ## AWS API Gateway + AWS Lambda?
 
+================================
+
 Http Request  ->
 ![Math](https://upload.wikimedia.org/wikipedia/commons/3/3b/Function_machine2.svg) <!-- .element: style="background-color:#ffffffff;" -->
 ->  Http Response
+
+================================
+
+### AWS API Gateway Request
+
+```javascript
+{
+"resource": "Resource path",
+"path": "Path parameter",
+"httpMethod": "Incoming request's method name"
+"headers": {/*String containing incoming request headers*/}
+"multiValueHeaders": {/*List of strings containing incoming request headers*/}
+"queryStringParameters": {/*query string parameters*/}
+"multiValueQueryStringParameters": {/*List of query string parameters*/}
+"pathParameters":  {/*path parameters*/}
+"stageVariables": {/*Applicable stage variables*/}
+"requestContext": {/*Request context, including authorizer-returned key-value pairs*/}
+"body": "A JSON string of the request payload."
+"isBase64Encoded": true|false
+/*A boolean flag to indicate if the applicable request payload is Base64-encode*/
+}
+```
+<!-- .element: class="stretch"-->
+
+================================
+
+### AWS API Gateway Response
+```javascript
+{
+"isBase64Encoded": true|false,
+"statusCode": httpStatusCode,
+"headers": { "headerName": "headerValue", ... },
+"multiValueHeaders": {
+    "headerName": ["headerValue", "headerValue2", ...], ...
+},
+"body": "..."
+}
+```
+
+================================
+
+## What about the JVM code?
+
+```scala
+def handle(requestStream:  java.io.InputStream,
+           responseStream: java.io.OutputStream): Unit
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+Note:
+And this is it! You just have to handle the request and response!
