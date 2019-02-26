@@ -47,3 +47,36 @@ In AWS Lambda
 Note:
 Keep your lambda integration code small
 to reduce vendor lock in.
+
+My function has a cold start of about 20 seconds
+with a jar file of 40mb.
+
+--------------------------------
+
+## What is AWS Api Gateway
+
+- An API Gateway <!-- .element: class="fragment" data-fragment-index="1" -->
+- Basically a Proxy for APIs <!-- .element: class="fragment" data-fragment-index="2" -->
+
+================================
+
+## AWS API Gateway - Features
+
+- Monitoring/Logging (CloudWatch)
+- Scalable
+- Websockets
+- Security Controls
+- Cacheable
+- Proxy
+ - Amazon EC2
+ - AWS Lambda
+ - VPCs/Private Data centers
+ - AND MUCH MORE <!-- .element: class="fragment" data-fragment-index="1" -->
+
+================================
+
+## AWS API Gateway + AWS Lambda?
+
+Http Request  ->
+![Math](https://upload.wikimedia.org/wikipedia/commons/3/3b/Function_machine2.svg) <!-- .element: style="background-color:#ffffffff;" -->
+->  Http Response
