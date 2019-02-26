@@ -11,6 +11,16 @@
 
 --------------------------------
 
+What if I told you...
+
+![What If I told you](/images/whatif.gif) <!-- .element: class="fragment fade-out" data-fragment-index="1" -->
+
+Note:
+That you can take a http rest api, and scale it automagically...
+without limit.
+
+--------------------------------
+
 #### Pure FP Web Apps in AWS Lambda using Http4s
 
 ![Cats](https://typelevel.org/cats/img/cats-logo.svg)  <!-- .element: height="150px"-->
